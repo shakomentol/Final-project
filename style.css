@@ -77,12 +77,38 @@ header {
 }
 .oval-box {
     position: absolute;
-    margin-top: 250px;
+    margin-top: 200px;
     margin-left: -70px;
 }
-.resposiv-img {
-    display: none;
+.information-box {
+    flex-direction: column;
+    margin-left: 200px;
+    margin-top: 150px;
+    /* background-color: red; */
+    width: 350px;
 }
+.information-h2 h2 {
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: -3px;
+}
+.information-p {
+    margin-top: -50px;
+    line-height: 32px;
+}
+.information-button button {
+    width: 202px;
+    height: 48px;
+    border-radius: 24px;
+    color: white;
+    background-color: #7E8AB8;
+    border: none;
+    margin-left: 40px;
+}
+/* .resposiv-img {
+    display: none;
+} */
+ 
 @media (max-width: 1024px) {
     .button-box {
         margin-left: 350px;
