@@ -6,12 +6,6 @@
 .flex {
     display: flex;
 }
-header {
-    z-index: 1;
-    width: 100%;
-    height: 70px;
-    /* background-color: red; */
-}
 .firstpage-container {
     max-width: 1440px;
     width: 100%;
@@ -20,6 +14,15 @@ header {
     background-color:#F2F2F2;;
     margin: 0 auto;
     color: #3A1700;
+}
+body {
+    background-color: #F2F2F2;
+}
+header {
+    z-index: 1;
+    width: 100%;
+    height: 70px;
+    /* background-color: red; */
 }
 .firstpage-wrapper {
     position: relative;
