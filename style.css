@@ -26,6 +26,10 @@ header {
 }
 .firstpage-wrapper {
     position: relative;
+    /* background-color: green; */
+}
+.first-page-wrapper {
+    
 }
 .rectangle-img {
     width: 500px;
@@ -40,8 +44,8 @@ header {
     object-fit: cover;
 }
 .title {
-    max-width: 82px;
-    max-height: 48px;
+    max-width: 122px;
+    max-height: 68px;
     margin-left: 32px;
     /* background-color: blue; */
 }
@@ -49,19 +53,21 @@ header {
     font-size: 25px;
     letter-spacing: -1px;
     color: #3A1700;
+    font-family: Rowdies;
 }
 .unordered-list {
     max-width: 414px;
     width: 100%;
     max-height: 32px;
     /* background-color: green; */
-    margin-left: 12px;
+    margin-left: 20px;
     margin-top: 25px;
 }
 .unordered-list li a {
     margin: 15px;
     font-size: 16px;
     color: #3A1700;
+    font-family: manrope;
 }
 .button-box {
     /* max-width: 138px; */
@@ -94,13 +100,15 @@ header {
     width: 350px;
 }
 .information-h2 h2 {
-    font-size: 72px;
+    font-size: 62px;
     line-height: 80px;
     letter-spacing: -3px;
+    font-family: rowdies;
 }
 .information-p {
     margin-top: -50px;
     line-height: 32px;
+    font-family: manrope;
 }
 .information-button button {
     width: 202px;
@@ -179,29 +187,49 @@ header {
     .oval-box {
         display: none;
     }
+    .title {
+        /* background-color: red; */
+        width: 100px;
+        height: 60px;
+        margin-top: 20px;
+        /* margin: 0 auto; */
+    }
     .title h1 {
-        font-size: 50px;
+        font-size: 36px;
+        margin: 0 auto;
+        text-align: left;
+
+    }
+    .firstpage-box {
+        max-width: 768px;
+        position: relative;
+        width: 100%;
+        height: 800px;
+        /* background-color: green; */
+        flex-direction: column-reverse;
+        margin-top: -150px;
     }
     .information-box {
         flex-direction: column;
-        margin-top: 400px;
-        width: 280px;
-        margin-left: -0.1px;
-    }
-    .information-button {
-       margin-left: -30px;
-       margin-top: -10px;
+        max-width: 270px;
+        height: 350px;
+        margin: 0 auto;
+        /* background-color: red; */
     }
     .information-item {
         max-width: 300px;
         height: 300px;
-        margin-left: -270px;
-        margin-top: 62px;
+        margin: 0 auto;
         z-index: 1;
+    }
+    .information-h2 h2 {
+        font-size: 48px;
     }
     .shadow-picture {
         display: none;
     }
-
+    .information-button {
+        margin-left: -40px;
+    }
 }
     
