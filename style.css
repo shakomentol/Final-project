@@ -7,7 +7,7 @@
     display: flex;
 }
 .firstpage-container {
-    max-width: 1440px;
+    max-width: 2440px;
     width: 100%;
     /* min-height: 100vh; */
     height: 800px;
@@ -17,6 +17,7 @@
 }
 body {
     background-color: #F2F2F2;
+    overflow-x: hidden;
 }
 header {
     z-index: 1;
@@ -145,9 +146,56 @@ header {
     height: 100%;
     object-fit: cover;
 }
-/* .resposiv-img {
-    display: none;
-} */
+/* second section */
+.secondpage-container {
+    max-width: 2440px;
+    width: 100%;
+    height: 2000px;
+    background-color: white;
+    margin: 0 auto;
+}
+.secondpage-title {
+    width: 180px;
+    height: 100px;
+    /* background-color: blue; */
+    margin: 0 auto;
+    padding-top: 60px;
+
+}
+.secondpage-title h3 {
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #E29F72;
+    font-family: rowdies;
+}
+.secondpage-info {
+    width: 770px;
+    height: 149px;
+    /* background-color: green; */
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.secondpage-info p {
+    font-size: 35px;
+    line-height: 48px;
+    color: #3A1700;
+    text-align: center;
+    font-family: rowdies;
+}
+.secondpage-blocks-wrapper {
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.block-item {
+    width: 490px;
+    height: 288px;
+    background-color: #F3F2E7;
+    margin: 10px;
+    border-radius: 12px;
+    
+}
  
 @media (max-width: 1024px) {
     .button-box {
@@ -231,6 +279,28 @@ header {
     }
     .information-button {
         margin-left: -40px;
+    }
+    .secondpage-info {
+        width: 270px;
+        height: 149px;
+        /* background-color: green; */
+        margin: 0 auto;
+    }
+    .secondpage-info p {
+        font-size: 17px;
+        line-height: 28px;
+        color: #3A1700;
+        text-align: center;
+        font-family: rowdies;
+    }
+    .secondpage-title {
+        height: 40px;
+        /* background-color: blue; */
+        margin: 0 auto; 
+        padding-top: 5px;
+    }
+    .secondpage-blocks-wrapper {
+        margin-top: 10px;
     }
 }
     
