@@ -159,7 +159,7 @@ header {
     max-width: 1440px;
     position: relative;
     width: 100%;
-    height: 2000px;
+    height: 2500px;
     background-color: white;
     margin: 0 auto;
     /* z-index: 5; */
@@ -252,6 +252,45 @@ header {
 .img-h4-box {
     justify-content: space-evenly;
     margin-top: 50px;
+}
+.our-cases {
+    width: 200px;
+    height: 32px;
+    margin: 0 auto;
+    /* background-color: red; */
+    margin-top: 100px;
+}
+.our-cases h5 {
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: manrope;
+    color: #E29F72;
+
+}
+.recent-cases {
+    width: 500px;
+    height: 64px;
+    /* background-color: blue; */
+    margin: 0 auto;
+}
+.recent-cases h3 {
+    font-size: 56px;
+    font-family: rowdies;
+    letter-spacing: -2px;
+    text-align: center;
+}
+.recent-cases-wrapper {
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.recent-cases-item {
+    width: 370px;
+    height: 560px;
+    background-color: #F3F2E7;
+    margin: 10px;
+    border-radius: 12px;
 }
  
 @media (max-width: 1024px) {
@@ -348,6 +387,9 @@ header {
     .information-button {
         margin-left: -40px;
     }
+    .secondpage-container {
+        height: 3800px;
+    }
     .secondpage-info {
         width: 270px;
         height: 149px;
@@ -381,6 +423,13 @@ header {
     }
     .path3-wrapper {
         display: none;
+    }
+    .recent-cases {
+        width: 250px;
+        height: 60px;
+    }
+    .recent-cases h3 {
+        font-size: 30px;
     }
 }
     
