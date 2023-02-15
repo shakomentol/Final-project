@@ -365,6 +365,9 @@ header {
     background-color:#F3F2E7;
     margin: 0 auto;
 }
+.thirdpage-wrapper {
+    margin-top: 50px;
+}
 .highest-form-wrapper {
     width: 100%;
     justify-content: space-between;
