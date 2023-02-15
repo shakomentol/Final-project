@@ -208,6 +208,10 @@ header {
 .blockitem-img img {
     object-fit: cover;
 }
+.blockitem-h4 {
+    width: 182px;
+    height: 32px;
+}
 .blockitem-h4 h4 {
     font-size: 35;
     font-family: rowdies;
@@ -550,6 +554,13 @@ header {
         height: 102px;
         max-width: 273px;
         width: 100%;
+    }
+    .blockitem-h4 {
+        width: 140px;
+        height: 64px;
+    }
+    .blockitem-h4 h4 {
+        font-size: 17px;
     }
     .ovalball {
         display: none;
