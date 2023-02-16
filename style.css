@@ -449,7 +449,6 @@ header {
 }
 .whatever-it-block-wrapper {
     width: 100%;
-    height: 500px;
     justify-content: space-evenly;
     padding: 10px;
 }
