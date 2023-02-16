@@ -9,13 +9,13 @@
 .firstpage-container {
     max-width: 1440px;
     width: 100%;
-    height: 800px;
     background-color:#F3F2E7;
     margin: 0 auto;
     color: #3A1700;
 }
 .firstpage-box {
     justify-content: space-between;
+    width: 100%;
 }
 body {
     background-color: #F3F2E7;
@@ -84,14 +84,14 @@ header {
 }
 .oval-box {
     position: absolute;
-    margin-top: 200px;
+    margin-top: 150px;
     margin-left: -70px;
 }
 .information-box {
     flex-direction: column;
     margin-left: 100px;
     margin-top: 150px;
-    width: 350px;
+    width:40%;
 }
 .information-h2 h2 {
     font-size: 62px;
@@ -115,35 +115,30 @@ header {
     margin-top: 20px;
 }
 .information-item {
-    max-width: 600px;
-    height: 600px;
+    width: 50%;
     margin-top: -42px;
     z-index: 1;
 }
 .information-item img {
     width: 100%;
-    height: 100%;
     object-fit: cover;
 }
 .shadow-picture {
     position: absolute;
-    max-width: 1025px;
-    max-height: 1337px;
     margin-top: 50px;
+    left:70%;
+    top: -10%;
 }
 .shadow-picture img {
-    width: 100%;
-    height: 100%;
+    width: 625px;
+    height: 827px;
     object-fit: cover;
-    margin-left: 763px;
-    margin-top: -280px;
 }
 /* second section */
 .secondpage-container {
     max-width: 1440px;
     position: relative;
     width: 100%;
-    height: 2100px;
     background-color: white;
     margin: 0 auto;
 }
@@ -365,7 +360,6 @@ header {
 .thirdpage-container {
     max-width: 1440px;
     width: 100%;
-    height: 2300px;
     background-color:#F3F2E7;
     margin: 0 auto;
 }
@@ -375,7 +369,7 @@ header {
 .highest-form-wrapper {
     width: 100%;
     justify-content: space-between;
-    height: 850px;
+    padding: 10px;
 }
 .highest-form-img {
     width: 50%;
@@ -447,12 +441,9 @@ header {
         line-height: 50px;
         letter-spacing: -3px;
     }
-    .information-item {
-        max-width: 400px;
-        height: 400px;
-        margin-left: 100px;
-        margin-top: -42px;
-        z-index: 1;
+    .information-item img {
+        width: 100%;
+        height: 100%;
     }
     .shadow-picture {
         display: none;
@@ -465,9 +456,6 @@ header {
     }
     .path3-wrapper {
         display: none;
-    }
-    .secondpage-container {
-        height: 3800px;
     }
 }
 @media (max-width: 768px) {
@@ -498,34 +486,26 @@ header {
         max-width: 768px;
         position: relative;
         width: 100%;
-        height: 800px;
         flex-direction: column-reverse;
         margin-top: -150px;
+        padding: 10px;
     }
     .information-box {
         flex-direction: column;
-        max-width: 270px;
-        height: 350px;
+        width: 100%;
         margin: 0 auto;
     }
     .information-item {
-        max-width: 300px;
-        height: 300px;
+        width: 100%;
         margin: 0 auto;
         z-index: 1;
         margin-top: 200px;
-    }
-    .information-h2 h2 {
-        font-size: 48px;
     }
     .shadow-picture {
         display: none;
     }
     .information-button {
         margin-left: -40px;
-    }
-    .secondpage-container {
-        height: 3600px;
     }
     .secondpage-info {
         width: 270px;
@@ -576,7 +556,7 @@ header {
         font-size: 30px;
     }
     .recent-cases-item {
-        width: 329px;
+        width: 100%;
         height: 560px;
     }
     .cases-item-img {
