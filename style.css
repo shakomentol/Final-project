@@ -347,6 +347,7 @@ header {
     height: 48px;
     margin: 0 auto;
     margin-top: 80px;
+    position: relative;
 }
 .explore-all-button button {
     width: 100%;
@@ -355,6 +356,8 @@ header {
     border: 1px solid #7E8AB8;
     color: #7E8AB8;
     background-color: white;
+    position: absolute;
+    margin-top: -40px;
 }
 /* thirdpage container */
 .thirdpage-container {
@@ -529,6 +532,9 @@ header {
     }
     .explore-all-button {
         margin-top: 40px;
+    }
+    .explore-all-button button  {
+        margin-top: -20px;
     }
     .block-item-pharagraph {
         height: 102px;
