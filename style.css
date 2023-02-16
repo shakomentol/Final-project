@@ -643,5 +643,6 @@ header {
     }
     .whatever-it-block-wrapper {
         flex-direction: column;
+        padding: 5px;
     }
 }   
