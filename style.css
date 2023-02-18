@@ -2,6 +2,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    padding: 0;
 }
 .flex {
     display: flex;
@@ -20,10 +21,10 @@
 body {
     background-color: #F3F2E7;
     overflow-x: hidden;
-    z-index: 50;
+    z-index: 5;
 }
 header {
-    z-index: 1;
+    z-index: 50;
     width: 100%;
 }
 .burger {
@@ -35,12 +36,13 @@ header {
     align-items: center;
     justify-content: center;
     padding: 15px;
+    margin-top: 10px;
     cursor: pointer;
+    z-index: 10;
 }
 .hide {
     left: -100%;
 }
- 
 .show {
     left: 0;
 }
@@ -49,20 +51,30 @@ header {
     display: none;
     background-color:black;
     width: 100%;
-    top: 70px;
     height: 100%;
-    /* min-height: 100vh; */
-    z-index: 50;
-    transition: left 0.3s linear ;
+    z-index: 5;
+    transition: left 0.2s linear ;
 }
 .mobile-navigation ul {
-    height: 100%;
+    width: 100%;
     display: flex;
+    margin: 0 auto;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color:black;
+    margin-top: 80px;
 }
-
+.mobile-navigation ul li {
+    font-size: 35px;
+    padding: 20px;
+    font-family: rowdies;
+    padding-left: 0;
+}
+.mobile-navigation ul li a {
+    color: white;
+    letter-spacing: 2px;
+}
 .burger span {
     height: 2.5px;
     width: 20px;
@@ -88,9 +100,9 @@ header {
     object-fit: cover;
 }
 .title {
-    max-width: 122px;
-    max-height: 68px;
+    width: 200px;
     margin-left: 32px;
+    z-index: 6;
 }
 .title h1 {
     font-size: 25px;
@@ -569,15 +581,14 @@ header {
         display: none;
     }
     .title {
-        width: 100px;
-        height: 60px;
+        width: 100%
         margin-top: 20px;
         margin: 0 auto;
     }
     .title h1 {
-        font-size: 36px;
+        font-size: 46px;
         margin: 0 auto;
-        text-align: left;
+        margin-top: 10px;
     }
     .firstpage-box {
         max-width: 768px;
